@@ -39,6 +39,9 @@ const extractedEntries = [];
   readInterface.on('close', () => {
     fs.unlinkSync('results.txt');
     fs.writeFileSync('results.json', JSON.stringify(extractedEntries));
+    console.log(
+      'results.json file has been generated in your current directory.'
+    );
   });
 })();
 
