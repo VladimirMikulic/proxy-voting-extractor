@@ -1,0 +1,16 @@
+{
+  "name": "proxy-voting-extractor",
+  "version": "1.0.0",
+  "description": "CLI for extracting data from proxy voting PDF files.",
+  "main": "script.js",
+  "bin": {
+    "proxy-voting-extractor": "./script.js"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "Vladimir Mikulic <vladimir.mikulic2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-to-text": "0.0.7"
+  }
+}
